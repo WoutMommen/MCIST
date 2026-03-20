@@ -4,7 +4,8 @@
 # Wout Mommen
 # 13.03.2026
 #
-# ! If you use this dataset, please cite as indicated on https://github.com/WoutMommen/MCIST.
+# https://github.com/WoutMommen/MCIST
+# https://zenodo.org/records/19135381 with DOI: https://doi.org/10.5281/zenodo.19135381
 #
 # Data set: CC BY 4.0 license
 # Code: MIT License
