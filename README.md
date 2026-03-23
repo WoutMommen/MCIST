@@ -13,7 +13,7 @@ The script either loads the dataset from the pickle `mcist.pcl`, or creates this
 Parameters in the script are set to generate MNIST-like 28x28 glyphs, with integer pixel values normalized between 0 and 255.
 Feel free to experiment with other parameter values (image sizes...), but just note that for honest comparisons between classifiers,
 "the MCIST dataset" is understood as the dataset with the exact default parameters as found here.
-The dataset is balanced. Each Cistercian numeral (0000...9999) appears 5 times in the training set and once in the test set.
+The dataset is balanced. Each Cistercian numeral (0000...9999) appears 6 times in the training set and once in the test set.
 
 ## Please cite as:
 If you use this dataset, please cite as:
