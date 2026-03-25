@@ -19,9 +19,9 @@ The dataset is balanced. Each Cistercian numeral (0000...9999) appears 6 times i
 If you use this dataset, please cite as:
  
 > Mommen W., Keuninckx L. (2026). MCIST: A Cistercian Numerals Dataset (Version 1.0). 
-> https://github.com/WoutMommen/MCIST. DOI https://doi.org/10.5281/zenodo.19135381.
+> https://github.com/WoutMommen/MCIST. DOI https://doi.org/10.5281/zenodo.19222617.
 
-or as shown in https://zenodo.org/records/19135381.
+or as shown in https://zenodo.org/records/19222617.
 
 **Licenses:**
 * **Data set: CC BY 4.0 license**
