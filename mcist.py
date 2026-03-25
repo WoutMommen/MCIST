@@ -5,7 +5,7 @@
 # 13.03.2026
 #
 # https://github.com/WoutMommen/MCIST
-# https://zenodo.org/records/19135381 with DOI: https://doi.org/10.5281/zenodo.19135381
+# https://zenodo.org/records/19222617 with DOI: https://doi.org/10.5281/zenodo.19222617
 #
 # Data set: CC BY 4.0 license
 # Code: MIT License
