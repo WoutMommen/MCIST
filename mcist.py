@@ -27,16 +27,15 @@ from scipy.ndimage import gaussian_filter,rotate,shift
 NTRAIN = 60000 #60
 NTEST = 10000  #10
 SIZEY,SIZEX = 28,28 #MNIST size
-JITTERC = 0.2 #central line jitter
-JITTERL = 1.0 #outer line jitters
-LINEWIDTH = 2
+JITTERC = 0.75 #0.25 #central line jitter
+JITTERL = 1.2 #outer line jitters
 PICKLEFN = "mcist.pcl"
 GFSIGMA = 1 #gaussian filter sigma
 GFRAD = 1 #gaussian filter radius
-MAXROTATION = 10 #degrees
-MAXSHIFTX = 1.5
-MAXSHIFTY = 1.5
-THRESHOLD = 0.1
+MAXROTATION = 15 #degrees
+MAXSHIFTX = 2.0
+MAXSHIFTY = 2.0
+THRESHOLD = 0.12
 
 ###############
 # Classes
@@ -166,7 +165,8 @@ def To8bit(image):
 def MakeOneNumeral(label): 
     image = GenerateImage(label)
     #blur
-    image = gaussian_filter(image,sigma=GFSIGMA,radius=GFRAD)
+    gfsigma = np.random.uniform(low=GFSIGMA/2,high=1.5*GFSIGMA,size=2)
+    image = gaussian_filter(image,sigma=gfsigma,radius=GFRAD)
     #rotate
     angle = np.random.uniform(low=-MAXROTATION,high=MAXROTATION)
     image = rotate(image,angle=angle,reshape=False)
